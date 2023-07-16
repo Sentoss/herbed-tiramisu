@@ -4,6 +4,6 @@
 tiramisu -o "export app=#source message=#body" |
 
 while read -r tiramisu
-do	$tiramisu
-herbe "$app" "" "$message"
+do	
+herbe "$app" " " "$message"
 done
